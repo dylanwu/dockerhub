@@ -1,0 +1,7 @@
+zentao:
+    build: .
+    restart: always
+    ports:
+        -  "127.0.0.1:1080:80"
+    volumes:
+        -  "/opt/zbox/:/opt/zbox/"
